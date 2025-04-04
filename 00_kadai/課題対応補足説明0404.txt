@@ -1,0 +1,39 @@
+所属会社 課題対応
+ご担当者様
+
+下記URL（Github）に本日の作業結果を公開しましたので
+ご確認ください。大部分はひな形ですが、簡単な画面遷移
+はSpringBoot-thymeleafで実装してあります。ロジック部
+などは後日の実装です。
+
+https://github.com/purejiAgentGrow/KadaiHyperRobot
+
+再現したい場合はお問い合わせください。
+少なくとも、下記ファイルの設定を編集しないとエラーになります。
+
+application.propertiesについて
+
+データベースの機密情報が書いてあるため、GitHubには
+パスワード部が書かれている当ファイルをプッシュしない。
+仮に当プロジェクトをローカルで再現したい場合は、上記
+ファイルを自環境向けに編集する必要がある。
+
+2025/04/04時点では、当システムはデータベースとの
+連係を行っていないが、SpringBootにてDBの依存性注入をして
+いるため、ダミーでもPostgresと接続できないと実行できない。
+
+ローカル環境にpostgres16サーバを入れ、
+postgresユーザと、postgresデータベースを作成する必要がある。
+
+
+application.properties 設定例
+
+spring.application.name=hyperrobot
+# PostgreSQLデータベース接続設定
+spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
+spring.datasource.username=postgres
+spring.datasource.password=*****************
+
+上記を編集後、MavenビルドしてからSpringBootアプリケーションを
+実行し、ブラウザでlocalhost:8080にアクセスすればtop画面がでる
+はずです。

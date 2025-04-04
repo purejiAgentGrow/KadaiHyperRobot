@@ -1,0 +1,175 @@
+Microsoft Windows [Version 10.0.19045.5608]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pleiades\2024-12\workspace\hyperrobot>git init
+Initialized empty Git repository in C:/pleiades/2024-12/workspace/hyperrobot/.git/
+
+C:\pleiades\2024-12\workspace\hyperrobot>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitattributes
+        .gitignore
+        00_kadai/
+        mvnw
+        mvnw.cmd
+        pom.xml
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\pleiades\2024-12\workspace\hyperrobot>git add .
+warning: in the working copy of '.gitattributes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/pureji/hyper/HyperrobotApplication.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/pureji/hyper/controller/HyperRobotContoller.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/static/css/main.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/static/js/jquery-3.7.1.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/static/js/konva.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/static/js/link.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/templates/arena.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/templates/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/templates/solo.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/templates/user.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/test/java/com/pureji/hyper/HyperrobotApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+
+C:\pleiades\2024-12\workspace\hyperrobot>git config --global core.autocrlf true
+
+C:\pleiades\2024-12\workspace\hyperrobot>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitattributes
+        new file:   .gitignore
+        new file:   00_kadai/00_copilot質問集.xlsx
+        new file:   00_kadai/01_企画書.xlsx
+        new file:   00_kadai/02_基本設計書.xlsx
+        new file:   00_kadai/03_詳細設計書.xlsx
+        new file:   00_kadai/04_テスト設計書_未着手.xlsx
+        new file:   00_kadai/05_テスト結果報告書_未着手.xlsx
+        new file:   00_kadai/06_保守運用設計書_未着手.xlsx
+        new file:   00_kadai/shizai/jpg/ハイパーロボット箱.jpg
+        new file:   00_kadai/shizai/jpg/盤面例.jpg
+        new file:   mvnw
+        new file:   mvnw.cmd
+        new file:   pom.xml
+        new file:   src/main/java/com/pureji/hyper/HyperrobotApplication.java
+        new file:   src/main/java/com/pureji/hyper/controller/HyperRobotContoller.java
+        new file:   src/main/resources/static/css/main.css
+        new file:   src/main/resources/static/jpg/banmen.jpg
+        new file:   src/main/resources/static/jpg/title.jpg
+        new file:   src/main/resources/static/js/jquery-3.7.1.min.js
+        new file:   src/main/resources/static/js/konva.min.js
+        new file:   src/main/resources/static/js/link.js
+        new file:   src/main/resources/templates/arena.html
+        new file:   src/main/resources/templates/index.html
+        new file:   src/main/resources/templates/solo.html
+        new file:   src/main/resources/templates/user.html
+        new file:   src/test/java/com/pureji/hyper/HyperrobotApplicationTests.java
+
+
+C:\pleiades\2024-12\workspace\hyperrobot>git commit -m "2025 04/04 課題対応 初回コミット"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'purej@Develop.(none)')
+
+C:\pleiades\2024-12\workspace\hyperrobot>git config --global user.email "kato2103@agent-grow.com"
+
+C:\pleiades\2024-12\workspace\hyperrobot>git config --global user.name "HironoriKato"
+
+C:\pleiades\2024-12\workspace\hyperrobot>git commit -m "2025 04/04 課題対応 初回コミット"
+[master (root-commit) e24f5a6] 2025 04/04 課題対応 初回コミット
+ 27 files changed, 771 insertions(+)
+ create mode 100644 .gitattributes
+ create mode 100644 .gitignore
+ create mode 100644 00_kadai/00_copilot質問集.xlsx
+ create mode 100644 00_kadai/01_企画書.xlsx
+ create mode 100644 00_kadai/02_基本設計書.xlsx
+ create mode 100644 00_kadai/03_詳細設計書.xlsx
+ create mode 100644 00_kadai/04_テスト設計書_未着手.xlsx
+ create mode 100644 00_kadai/05_テスト結果報告書_未着手.xlsx
+ create mode 100644 00_kadai/06_保守運用設計書_未着手.xlsx
+ create mode 100644 00_kadai/shizai/jpg/ハイパーロボット箱.jpg
+ create mode 100644 00_kadai/shizai/jpg/盤面例.jpg
+ create mode 100644 mvnw
+ create mode 100644 mvnw.cmd
+ create mode 100644 pom.xml
+ create mode 100644 src/main/java/com/pureji/hyper/HyperrobotApplication.java
+ create mode 100644 src/main/java/com/pureji/hyper/controller/HyperRobotContoller.java
+ create mode 100644 src/main/resources/static/css/main.css
+ create mode 100644 src/main/resources/static/jpg/banmen.jpg
+ create mode 100644 src/main/resources/static/jpg/title.jpg
+ create mode 100644 src/main/resources/static/js/jquery-3.7.1.min.js
+ create mode 100644 src/main/resources/static/js/konva.min.js
+ create mode 100644 src/main/resources/static/js/link.js
+ create mode 100644 src/main/resources/templates/arena.html
+ create mode 100644 src/main/resources/templates/index.html
+ create mode 100644 src/main/resources/templates/solo.html
+ create mode 100644 src/main/resources/templates/user.html
+ create mode 100644 src/test/java/com/pureji/hyper/HyperrobotApplicationTests.java
+
+C:\pleiades\2024-12\workspace\hyperrobot>git log
+commit e24f5a61b9b6aad1291ecf6363cfe2523eac9f02 (HEAD -> master)
+Author: HironoriKato <kato2103@agent-grow.com>
+Date:   Fri Apr 4 17:20:01 2025 +0900
+
+    2025 04/04 課題対応 初回コミット
+
+C:\pleiades\2024-12\workspace\hyperrobot>git remote add origin https://github.com/purejiAgentGrow/KadaiHyperRobot.git
+
+C:\pleiades\2024-12\workspace\hyperrobot>git branch -M main
+
+C:\pleiades\2024-12\workspace\hyperrobot>git push -u origin main
+info: please complete authentication in your browser...
+To https://github.com/purejiAgentGrow/KadaiHyperRobot.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/purejiAgentGrow/KadaiHyperRobot.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\pleiades\2024-12\workspace\hyperrobot>git pull origin main --rebase
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 1.44 KiB | 105.00 KiB/s, done.
+From https://github.com/purejiAgentGrow/KadaiHyperRobot
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+Deletion of directory 'src/main/resources/static/js' failed. Should I try again? (y/n) y
+Successfully rebased and updated refs/heads/main.
+
+C:\pleiades\2024-12\workspace\hyperrobot>git push origin main
+Enumerating objects: 48, done.
+Counting objects: 100% (48/48), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (37/37), done.
+Writing objects: 100% (47/47), 4.14 MiB | 2.87 MiB/s, done.
+Total 47 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/purejiAgentGrow/KadaiHyperRobot.git
+   1ed603c..aa0d2f2  main -> main
+
+C:\pleiades\2024-12\workspace\hyperrobot>
+
