@@ -1,0 +1,9 @@
+/* solo画面 ゲーム盤面表示用*/
+img.gameBanmen{
+	width:400px;
+	height:400px;
+}
+
+body{
+	background-color:antiquewhite;
+}
